@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+    width: 500px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+input, select {
+    padding: 6px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h2>Telangana State Road Transport Corporation</h2>
+    <h3>General Bus Pass Application</h3>
+
+    <form>
+        <div class="row">
+            <label>Name:</label>
+            <input type="text">
+        </div>
+
+        <div class="row">
+            <label>Date of Birth:</label>
+            <input type="date">
+        </div>
+
+        <div class="row">
+            <label>Father's Name:</label>
+            <input type="text">
+        </div>
+
+        <div class="row">
+            <label>Gender:</label>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+        </div>
+
+        <div class="row">
+            <label>Whatsapp No:</label>
+            <input type="text">
+        </div>
+
+        <div class="row">
+            <label>Email:</label>
+            <input type="email">
+        </div>
+
+        <div class="row">
+            <label>Photo:</label>
+            <input type="file">
+        </div>
+
+        <h4>Residential Address</h4>
+
+        <div class="row">
+            <label>District:</label>
+            <select>
+                <option>Hyderabad</option>
+            </select>
+        </div>
+
+        <div class="row">
+            <label>Mandal:</label>
+            <select>
+                <option>Hyderabad</option>
+            </select>
+        </div>
+
+        <div class="row">
+            <label>Village:</label>
+            <input type="text">
+        </div>
+
+        <div class="row">
+            <label>Pincode:</label>
+            <input type="text">
+        </div>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style type="text/css">
+       
+       body{
+        background-color: red;
+       }
+        li:first-child{
+            color:blue
+        }
+    </style>     
+</head>
+<body>
+   
+  <h1>my name is sk </h1>  
+  <ul> front end technologies
+  <li>html</li>
+  <li>css</li>
+  <li>java-script</li>
+  <li>spring boot</li>
+  <li>react js</li>
+</ul>
+<ol>here we will learn about
+    <li>tally</li>
+    <li>wings</li>
+    <li>vba</li>
+    <li>java</li>
+    <li>my sql</li>
+    </ol>
+</body>
+</html>
+    
+</ol>
+<a href+'#'>learn html</a></br>
+<a href='#'>learn css</a></br>
+<a href='#'> java script</a>
+</body>
+</html>
