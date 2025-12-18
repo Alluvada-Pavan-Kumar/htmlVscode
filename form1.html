@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./universal selector.html" autocomplete="off">
+        <label for="">choose file</label>
+        <input type="file" accept=".pdf" multiple><br>
+        <label>phone number</label>
+        <input type="tel" pattern="\+91[6-9][0-9]{9}"><br>
+        <label>Email</label>
+        <input type="email" pattern="[a-z0-9@#$%^&*]+gmail\.com">
+        <label for="">password</label>
+        <input type="text" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[@#$%^&*]).{8,16}">
+        <button>submit</button>
+    </form>
+</body>
+</html>

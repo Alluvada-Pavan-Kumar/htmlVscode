@@ -1,0 +1,38 @@
+
+.container{
+    margin:30px 10px 30px 80px;
+    /* border:solid;
+    border-color: black; */
+    width: 1200px;
+    padding: 40px 40px 40px 80px;
+}
+.container1{
+    /* border: solid; */
+    display: inline-block;
+    width: 280px;
+    margin-right: 20px;
+}
+.container2{
+     /* border: solid; */
+     display: inline-block;
+      width: 280px;
+       margin-right: 20px;
+}
+.container3{
+     /* border: solid; */
+     display: inline-block;
+      width: 280px;
+       margin-right: 20px;
+
+}
+.container4{
+     /* border: solid; */
+    display: inline-block; 
+     width: 280px;
+      /* margin-right: 20px; */
+
+}
+img{
+    width: 100%;
+    
+}
